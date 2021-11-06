@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Prueba Maquetacion</string>
+    <string name="jardines_junto_al_lago">Jardines junto al lago</string>
+    <string name="jardines_junto_al_lago_desc">En el sur del país se encuentra un increíble parque tropical «Gardens by the Bay». Las estructuras arbóreas del «Jardín» se construyeron especialmente aquí para diversos fines: en algunas, por ejemplo, especies raras de enredaderas, mientras que otras se utilizan para recoger agua de lluvia. Entre los «árboles» hay pasajes con una vista magnífica. En «Gardens by the Bay» también hay dos invernaderos: «Flower Dome» y «Cloud Forest».</string>
+    <string name="imagen_de_los_jardines">Imagen de los jardines</string>
 </resources>
