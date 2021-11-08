@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EEEEEE"
+    android:background="@color/back"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -24,25 +24,20 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!-- title -->
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="12dp"
+                style="@style/text_title"
                 android:background="@drawable/rounded_corner_view"
                 android:backgroundTint="@color/gardens_by_the_bay"
-                android:elevation="@dimen/cardview_default_radius"
                 android:text="@string/jardines_junto_al_lago"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="24sp"
-                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <!-- image singapur -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView"
                 android:layout_width="match_parent"
@@ -66,40 +61,29 @@
                     app:srcCompat="@drawable/singapur" />
             </androidx.cardview.widget.CardView>
 
+            <!-- gardens by the bay description -->
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginEnd="12dp"
                 android:background="@drawable/rounded_corner_view"
-                android:backgroundTint="@color/white"
-                android:elevation="@dimen/cardview_default_radius"
-                android:padding="7dp"
+                style="@style/text_container"
                 android:text="@string/jardines_junto_al_lago_desc"
-                android:textAlignment="viewStart"
-                android:textColor="#000000"
-                android:textSize="18sp"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
+            <!-- long text example -->
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="12dp"
+                style="@style/text_container"
                 android:background="@drawable/rounded_corner_view"
                 android:backgroundTint="@color/white"
-                android:padding="7dp"
                 android:text="@string/texto_largo_relleno"
-                android:textColor="@color/black"
-                android:textSize="18sp"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
