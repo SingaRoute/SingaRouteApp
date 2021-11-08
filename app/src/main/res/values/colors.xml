@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="back">#EEEEEE</color>
+    <color name="gardens_by_the_bay">#17D7A0</color>
+    <color name="gardens_by_the_bay_notification">#77E4D4</color>
 </resources>
