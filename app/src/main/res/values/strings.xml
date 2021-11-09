@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">Prueba Maquetacion</string>
+    <string name="app_name">Singaroute</string>
+    <string name="singapur_title">Singapur</string>
     <string name="jardines_junto_al_lago">Jardínes junto al lago</string>
     <string name="jardines_junto_al_lago_desc"><p>En el sur del país se encuentra un increíble parque tropical "Gardens by the Bay".</p> <br/> <p> Las estructuras arbóreas del Jardín se construyeron especialmente aquí para diversos fines: en algunas, por ejemplo, especies raras de enredaderas, mientras que otras se utilizan para recoger agua de lluvia.</p> <br/> <p> Entre los árboles hay pasajes con una vista magnífica. En "Gardens by the Bay" también hay dos invernaderos: "Flower Dome" y "Cloud Forest". </p></string>
     <string name="imagen_de_los_jardines">Imagen de los jardines</string>
+    <string name="temperature">Temperatura: 25ºC</string>
     <string name="texto_largo_relleno"> ñaosidjaiojsdiojasidjaiojdaisjdoijdiojasiodjaisojdiosjdioasjdiojsdiojasdiojasoidjaoisjdioasjdiosajdiojasiodjaisojdiaosjdioasjdioajdoiajdioajsdiojasodijaoidjaoisjdaoisjdoiasjdoiasjdoijsdoisajdoiasjdioasjdioasjdoiasjdioajdioasjdoiajdoiasjdoisajdoisajdoiasjdoiasjdoiasjdioasjdoiasjdoiasjdoaijdaoisjdoaisjdoaisjdaoijdoaijdaoisdjaoisdjaoisjdoaisjdoiajdoiajdoiajdoijoijdaoisjdoiajsdoiajdoiajdoiajdiosajiosjdoisjdiosajdioasjdiosajdoiasjdoiasjdoiasjdoiasjdoiasjdoaijsdoiasjdoiajdoiajsdoaisjdaosid </string>
 </resources>
