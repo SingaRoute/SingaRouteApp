@@ -24,9 +24,6 @@
         <!-- padding -->
         <item name="android:padding">7dp</item>
 
-        <!-- background shape & color -->
-        <item name="elevation">@dimen/cardview_default_radius</item>
-
         <!-- text style -->
         <item name="android:textAlignment">viewStart</item>
         <item name="android:textColor">@color/black</item>

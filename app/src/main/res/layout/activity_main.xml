@@ -17,6 +17,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
         android:orientation="vertical">
 
         <!-- title -->
@@ -27,12 +28,13 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_corner_view"
             android:backgroundTint="@color/gardens_by_the_bay"
+            android:elevation="@dimen/cardview_default_radius"
             android:text="@string/singapur_title"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <!-- singapur image  -->
+        <!-- gardens_by_the_bay_0 image  -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
             android:layout_width="match_parent"
@@ -40,6 +42,7 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="12dp"
+            android:elevation="@dimen/cardview_default_radius"
             app:cardCornerRadius="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -64,6 +67,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_corner_view"
             android:backgroundTint="@color/white"
+            android:elevation="@dimen/cardview_default_radius"
             android:text="@string/singapur_desc"
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
@@ -73,53 +77,65 @@
 
         <!-- temperature -->
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView2"
+        <LinearLayout
+            android:id="@+id/temperature_linear_layout"
+            style="@style/text_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_view"
+            android:backgroundTint="@color/white"
+            android:elevation="@dimen/cardview_default_radius"
+            android:gravity="end"
+            android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2">
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 app:srcCompat="@drawable/ic_baseline_cloud_24" />
 
             <TextView
                 android:id="@+id/textView3"
-                style="@style/text_container"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rounded_corner_view"
-                android:backgroundTint="@color/white"
                 android:text="@string/temperature"
+                android:textColor="@color/black"
+                android:textSize="18sp"
                 android:visibility="visible" />
-        </androidx.cardview.widget.CardView>
+        </LinearLayout>
 
-        <androidx.cardview.widget.CardView
+        <LinearLayout
+            android:id="@+id/location_linear_layout"
+            style="@style/text_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="12dp"
+            android:background="@drawable/rounded_corner_view"
+            android:backgroundTint="@color/white"
+            android:elevation="@dimen/cardview_default_radius"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2">
 
-            <TextView
-                android:id="@+id/textView4"
-                style="@style/text_container"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/singapur_location" />
-
             <ImageView
                 android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_location_on_24" />
+
+            <TextView
+                android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_baseline_location_on_24" />
-        </androidx.cardview.widget.CardView>
+                android:text="@string/singapur_location"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
