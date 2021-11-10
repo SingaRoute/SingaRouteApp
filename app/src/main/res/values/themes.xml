@@ -25,7 +25,6 @@
         <item name="android:padding">7dp</item>
 
         <!-- background shape & color -->
-        <item name="backgroundTint">@color/white</item>
         <item name="elevation">@dimen/cardview_default_radius</item>
 
         <!-- text style -->
