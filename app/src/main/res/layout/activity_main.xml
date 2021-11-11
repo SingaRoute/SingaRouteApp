@@ -109,35 +109,46 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/location_linear_layout"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/location_card_view"
             style="@style/text_container"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/rounded_corner_view"
-            android:backgroundTint="@color/white"
+            android:layout_marginEnd="12dp"
+            android:padding="10dp"
             android:elevation="@dimen/cardview_default_radius"
+            android:foregroundGravity="fill_horizontal"
+            app:cardCornerRadius="8dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/temperature_linear_layout"
             app:layout_constraintTop_toBottomOf="@+id/textView2">
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_location_on_24" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/singapur_location"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/singapur_location_icon"
+                    android:src="@drawable/ic_baseline_location_on_24" />
 
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:text="@string/singapur_location"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
