@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">Prueba Maquetacion</string>
     <string name="jardines_junto_al_lago">Jardínes junto al lago</string>
-    <string name="jardines_junto_al_lago_desc"><p>En el sur del país se encuentra un increíble parque tropical "Gardens by the Bay".</p> <br/> <p> Las estructuras arbóreas del Jardín se construyeron especialmente aquí para diversos fines: en algunas, por ejemplo, especies raras de enredaderas, mientras que otras se utilizan para recoger agua de lluvia.</p> <br/> <p> Entre los árboles hay pasajes con una vista magnífica. En "Gardens by the Bay" también hay dos invernaderos: "Flower Dome" y "Cloud Forest". </p></string>
+    <string name="jardines_junto_al_lago_desc"><p>En el sur del país se encuentra un increíble parque tropical "Gardens by the Bay".</p> <br /> <p> Las estructuras arbóreas del Jardín se construyeron especialmente aquí para diversos fines: en algunas, por ejemplo, especies raras de enredaderas, mientras que otras se utilizan para recoger agua de lluvia.</p> <br /> <p> Entre los árboles hay pasajes con una vista magnífica. En "Gardens by the Bay" también hay dos invernaderos: "Flower Dome" y "Cloud Forest". </p></string>
     <string name="imagen_de_los_jardines">Imagen de los jardines</string>
     <string name="texto_largo_relleno"> ñaosidjaiojsdiojasidjaiojdaisjdoijdiojasiodjaisojdiosjdioasjdiojsdiojasdiojasoidjaoisjdioasjdiosajdiojasiodjaisojdiaosjdioasjdioajdoiajdioajsdiojasodijaoidjaoisjdaoisjdoiasjdoiasjdoijsdoisajdoiasjdioasjdioasjdoiasjdioajdioasjdoiajdoiasjdoisajdoisajdoiasjdoiasjdoiasjdioasjdoiasjdoiasjdoaijdaoisjdoaisjdoaisjdaoijdoaijdaoisdjaoisdjaoisjdoaisjdoiajdoiajdoiajdoijoijdaoisjdoiajsdoiajdoiajdoiajdiosajiosjdoisjdiosajdioasjdiosajdoiasjdoiasjdoiasjdoiasjdoiasjdoaijsdoiasjdoiajdoiajsdoaisjdaosid </string>
+    <string name="templo_museo_buda">Templo y Museo de la Reliquia del Diente de Buda.</string>
+    <string name="descripcion">El Templo de la Reliquia del Diente de Buda se inauguró el 30 de mayo del año 2007, y su construcción se diseñó para que se pudiera seguir las normas y preceptos de templos tradicionales de China los cuales son de estilo Tang. Un edificio de 5 plantas donde incluye un gran museo y hasta un jardín zen el cual se encuentra en la azotea de este bonito templo de Singapur.</string>
+    <string name="imagen_descripcion">Uno de los lugares más impresionantes de Singapur, el Templo de la Reliquia del Diente de Buda</string>
+    <string name="direccion">288 South Bridge Road, Singapur.</string>
+    <string name="horario">de 07:00 a 19:00 todos los días</string>
+    <string name="recomendacion">Recomendación:</string>
+    <string name="recomendacion_vestir">Como un buen templo budista toda persona que quiera entrar deberá tener los hombros y rodillas cubiertos.</string>
+    <string name="sitios_cercanos">Sitios Cercanos:</string>
+    <string name="otros_sitios">China Town, Templo Sri Mariamman, Mezquita Jamae.</string>
 </resources>
