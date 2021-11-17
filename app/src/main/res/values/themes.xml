@@ -21,6 +21,9 @@
         <item name="android:layout_marginStart">12dp</item>
         <item name="android:layout_marginEnd">12dp</item>
 
+        <item name="android:background">@drawable/rounded_corner_view</item>
+        <item name="android:backgroundTint">@color/white</item>
+
         <!-- padding -->
         <item name="android:padding">7dp</item>
 
