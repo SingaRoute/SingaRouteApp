@@ -55,28 +55,32 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/garden_card_container" />
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="12dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6"
-            app:srcCompat="@drawable/ic_baseline_location_on_24" />
-
-        <TextView
-            android:id="@+id/textView7"
+        <LinearLayout
+            android:id="@+id/location_linear_layout"
+            style="@style/text_container"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/singapur_location"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="12dp"
-            android:textSize="18sp"
-            android:textColor="@color/black"
+            android:background="@drawable/rounded_corner_view"
+            android:backgroundTint="@color/white"
+            android:elevation="@dimen/cardview_default_radius"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView5"
-            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_location_on_24" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/singapur_location"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
