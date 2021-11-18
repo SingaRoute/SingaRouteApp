@@ -13,6 +13,7 @@
         <TextView
             android:id="@+id/textView5"
             style="@style/text_title"
+            android:backgroundTint="#71DFE7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -71,6 +72,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/singapur_location_icon"
                 android:src="@drawable/ic_baseline_location_on_24" />
 
             <TextView
