@@ -26,14 +26,16 @@
             <ImageView
                 android:id="@+id/site_card_image_view"
                 android:layout_width="match_parent"
-                android:layout_height="385dp"
+                android:layout_height="300dp"
                 android:adjustViewBounds="true"
                 android:contentDescription="TODO"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/singapur8x8"
+                app:srcCompat="@drawable/gardens_by_the_bay_0"
                 tools:ignore="ContentDescription,HardcodedText"
                 tools:visibility="visible" />
 
