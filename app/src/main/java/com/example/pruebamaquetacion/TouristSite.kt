@@ -1,9 +1,9 @@
 package com.example.pruebamaquetacion
 
 data class TouristSite(
-    val name : String,
-    val description : String,
-    val location : String,
-    val temperature : String,
-    val recomendations : String
+    val tittle: String,
+    val description: String,
+    val location: String,
+    val recomendations: String,
+    val urlPicture: String
 )
