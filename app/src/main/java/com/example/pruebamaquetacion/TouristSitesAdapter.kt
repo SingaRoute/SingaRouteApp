@@ -26,8 +26,8 @@ class TouristSitesAdapter(private val touristSiteList: ArrayList<TouristSiteItem
     override fun getItemCount(): Int = touristSiteList.size
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private var siteImage: ImageView = itemView.findViewById(R.id.site_image_view)
-        private var tittle: TextView = itemView.findViewById(R.id.tittle_text_view)
+        private var siteImage: ImageView = itemView.findViewById(R.id.site_card_image_view)
+        private var tittle: TextView = itemView.findViewById(R.id.tittle_card_text_view)
 
         fun bind(touristSite: TouristSiteItem) {
             tittle.text = touristSite.tittle

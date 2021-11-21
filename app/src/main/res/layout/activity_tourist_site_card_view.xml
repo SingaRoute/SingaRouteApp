@@ -24,7 +24,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/site_image_view"
+                android:id="@+id/site_card_image_view"
                 android:layout_width="match_parent"
                 android:layout_height="385dp"
                 android:adjustViewBounds="true"
@@ -38,7 +38,7 @@
                 tools:visibility="visible" />
 
             <TextView
-                android:id="@+id/tittle_text_view"
+                android:id="@+id/tittle_card_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -53,7 +53,7 @@
                 android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/site_image_view" />
+                app:layout_constraintTop_toBottomOf="@+id/site_card_image_view" />
 
             <ImageView
                 android:id="@+id/share_image_view"
@@ -63,8 +63,8 @@
                 android:layout_marginBottom="4dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/tittle_text_view"
-                app:layout_constraintTop_toBottomOf="@+id/site_image_view"
+                app:layout_constraintStart_toEndOf="@+id/tittle_card_text_view"
+                app:layout_constraintTop_toBottomOf="@+id/site_card_image_view"
                 app:srcCompat="@drawable/ic_baseline_share_24"
                 tools:ignore="ContentDescription" />
 

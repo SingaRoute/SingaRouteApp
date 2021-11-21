@@ -8,22 +8,22 @@ import com.google.gson.Gson
 
 class ListaDeActividadesActivity: AppCompatActivity() {
 
-    private lateinit var touristSitesList: ArrayList<TouristSiteItem>
-    private lateinit var touristSitesAdapter: TouristSitesAdapter
-    private lateinit var touristSitesRecyclerView: RecyclerView
+    private lateinit var sitesList: ArrayList<TouristSiteItem>
+    private lateinit var sitesAdapter: TouristSitesAdapter
+    private lateinit var sitesRecyclerView: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lista_de_actividades)
 
-        touristSitesRecyclerView = findViewById(R.id.tourist_sites_recycler_view)
+        sitesRecyclerView = findViewById(R.id.tourist_sites_recycler_view)
 
-        touristSitesList = loadMockTouristSites()
-        touristSitesAdapter = TouristSitesAdapter(touristSitesList)
+        sitesList = loadMockTouristSites()
+        sitesAdapter = TouristSitesAdapter(sitesList)
 
-        touristSitesRecyclerView.apply {
+        sitesRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
-            adapter = touristSitesAdapter
+            adapter = sitesAdapter
             setHasFixedSize(false)
         }
     }
@@ -33,7 +33,7 @@ class ListaDeActividadesActivity: AppCompatActivity() {
             applicationContext.assets.open("TouristSites.json").bufferedReader()
                 .use { it.readText() }
         val gson = Gson()
-        val data = gson.fromJson(touristSiteString, TouristSite::class.java)
+        val data = gson.fromJson(touristSiteString, TouristSite::class.java )
         return data
     }
 }
