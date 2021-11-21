@@ -17,4 +17,8 @@
     <string name="recomendacion_vestir">Como un buen templo budista toda persona que quiera entrar deberá tener los hombros y rodillas cubiertos.</string>
     <string name="sitios_cercanos">Sitios Cercanos:</string>
     <string name="otros_sitios">China Town, Templo Sri Mariamman, Mezquita Jamae.</string>
+    <string name="imagen_de_Merlion" translatable="false">Imagen de Merlion</string>
+    <string name="Merlion_title" translatable="false">Merlion Park</string>
+    <string name="merlion_desc" translatable="false">El cuerpo del Merlion simboliza los humildes comienzos de Singapur como pueblo de pescadores. Su cabeza representa el nombre original de Singapur, Singapura, o ciudad del león en malayo. Hoy, puedes vislumbrar esta leyenda en Merlion Park</string>
+    <string name="merlion_location">Merlion Park, Singapur, Singapur.</string>
 </resources>
