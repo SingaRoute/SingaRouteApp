@@ -29,9 +29,7 @@ class ListaDeActividadesActivity: AppCompatActivity() {
     }
 
     private fun loadMockTouristSites(): ArrayList<TouristSiteItem> {
-        val touristSiteString: String =
-            applicationContext.assets.open("TouristSites.json").bufferedReader()
-                .use { it.readText() }
+        val touristSiteString: String = applicationContext.assets.open("TouristSites.json").bufferedReader().use { it.readText() }
         val gson = Gson()
         val data = gson.fromJson(touristSiteString, TouristSite::class.java )
         return data
