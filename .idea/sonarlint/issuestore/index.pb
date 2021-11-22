@@ -12,3 +12,5 @@ n
 >app/src/main/java/com/example/pruebamaquetacion/TouristSite.kt,b\f\bfc0ff9ddf679d177f7e0c4cff90d44a21376bad
 r
 Bapp/src/main/java/com/example/pruebamaquetacion/TouristSiteItem.kt,a\0\a0376d7fcaab559e1167f0a9be49aade8cf41a5c
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
