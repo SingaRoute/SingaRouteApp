@@ -27,9 +27,11 @@ class TouristSitesAdapter(private val touristSiteList: ArrayList<TouristSiteItem
     class TouristSiteViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private var siteImage: ImageView = itemView.findViewById(R.id.site_card_image_view)
         private var tittle: TextView = itemView.findViewById(R.id.tittle_card_text_view)
+        private var likes: TextView = itemView.findViewById(R.id.likes_text_view)
 
         fun bind(touristSite: TouristSiteItem) {
             tittle.text = touristSite.tittle
+            likes.text = touristSite.likes
             Picasso.get().load(touristSite.urlPicture).into(siteImage)
         }
 

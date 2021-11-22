@@ -11,5 +11,7 @@ data class TouristSiteItem(
     @SerializedName("tittle")
     val tittle: String,
     @SerializedName("urlPicture")
-    val urlPicture: String
+    val urlPicture: String,
+    @SerializedName("likes")
+    val likes: String
 )
