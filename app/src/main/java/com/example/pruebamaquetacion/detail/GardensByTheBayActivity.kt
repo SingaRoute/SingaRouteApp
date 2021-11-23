@@ -1,7 +1,8 @@
-package com.example.pruebamaquetacion
+package com.example.pruebamaquetacion.detail
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.pruebamaquetacion.R
 
 class GardensByTheBayActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

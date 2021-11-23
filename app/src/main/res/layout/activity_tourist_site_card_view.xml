@@ -54,6 +54,7 @@
                 android:textStyle="bold"
                 android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView6"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/site_card_image_view" />
 
@@ -74,7 +75,7 @@
                 android:adjustViewBounds="false"
                 android:cropToPadding="false"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/tittle_card_text_view"
+                app:layout_constraintEnd_toStartOf="@+id/likes_text_view"
                 app:layout_constraintTop_toBottomOf="@+id/site_card_image_view"
                 app:srcCompat="@drawable/ic_baseline_favorite_border_24" />
 
@@ -86,7 +87,7 @@
                 android:textAlignment="center"
                 android:textSize="17sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView6"
+                app:layout_constraintEnd_toStartOf="@+id/share_image_view"
                 app:layout_constraintTop_toBottomOf="@+id/site_card_image_view" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

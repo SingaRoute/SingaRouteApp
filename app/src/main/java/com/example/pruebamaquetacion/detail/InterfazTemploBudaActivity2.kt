@@ -1,7 +1,8 @@
-package com.example.pruebamaquetacion
+package com.example.pruebamaquetacion.detail
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.pruebamaquetacion.R
 
 class InterfazTemploBudaActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

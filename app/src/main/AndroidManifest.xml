@@ -12,19 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebaMaquetacion">
         <activity
-            android:name=".MainActivity"
+            android:name=".detail.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".InterfazMerlionParkMainActivity"
+            android:name=".detail.InterfazMerlionParkMainActivity"
             android:exported="true">
         </activity>
         <activity
-            android:name=".GardensByTheBayActivity"
+            android:name=".detail.GardensByTheBayActivity"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".ListaDeActividadesActivity"
+            android:name=".list.ListaDeActividadesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".InterfazTemploBudaActivity2"
+            android:name=".detail.InterfazTemploBudaActivity2"
             android:exported="true" >
         </activity>
     </application>

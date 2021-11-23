@@ -1,4 +1,4 @@
-package com.example.pruebamaquetacion
+package com.example.pruebamaquetacion.list
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,13 +6,15 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.pruebamaquetacion.R
+import com.example.pruebamaquetacion.model.TouristSiteItem
 import com.squareup.picasso.Picasso
 
 class TouristSitesAdapter(private val touristSiteList: ArrayList<TouristSiteItem>) :
     RecyclerView.Adapter<TouristSitesAdapter.TouristSiteViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TouristSiteViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.activity_tourist_site_card_view , parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.activity_tourist_site_card_view, parent, false)
 
         return TouristSiteViewHolder(view)
     }

@@ -1,9 +1,12 @@
-package com.example.pruebamaquetacion
+package com.example.pruebamaquetacion.list
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.pruebamaquetacion.R
+import com.example.pruebamaquetacion.model.TouristSite
+import com.example.pruebamaquetacion.model.TouristSiteItem
 import com.google.gson.Gson
 
 class ListaDeActividadesActivity: AppCompatActivity() {
