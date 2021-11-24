@@ -21,4 +21,5 @@
     <string name="Merlion_title" translatable="false">Merlion Park</string>
     <string name="merlion_desc" translatable="false">El cuerpo del Merlion simboliza los humildes comienzos de Singapur como pueblo de pescadores. Su cabeza representa el nombre original de Singapur, Singapura, o ciudad del león en malayo. Hoy, puedes vislumbrar esta leyenda en Merlion Park</string>
     <string name="merlion_location">Merlion Park, Singapur, Singapur.</string>
+    <string name="cloud_image">cloud image</string>
 </resources>
