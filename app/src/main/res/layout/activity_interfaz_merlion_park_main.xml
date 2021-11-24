@@ -89,7 +89,7 @@
                 app:srcCompat="@drawable/ic_baseline_cloud_24" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/location_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -111,11 +111,11 @@
                 android:layout_marginTop="10dp"
                 android:contentDescription="@string/singapur_location_icon"
                 android:src="@drawable/ic_baseline_location_on_24"
-                app:layout_constraintStart_toEndOf="@+id/textView3"
+                app:layout_constraintStart_toEndOf="@+id/location_text_view"
                 app:layout_constraintTop_toBottomOf="@+id/description_text_view" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/schedule_text_view"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
