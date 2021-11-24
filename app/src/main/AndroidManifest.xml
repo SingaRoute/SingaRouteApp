@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebaMaquetacion">
         <activity
-            android:name=".detail.MainActivity"
-            android:exported="false" />
+            android:name=".detail.SingapourActivity"
+            android:exported="true"/>
         <activity
             android:name=".detail.InterfazMerlionParkMainActivity"
             android:exported="true">
