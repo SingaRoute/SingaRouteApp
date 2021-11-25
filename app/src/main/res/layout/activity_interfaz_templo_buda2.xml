@@ -92,7 +92,7 @@
             app:layout_constraintTop_toBottomOf="@+id/tittle_text_view">
 
             <LinearLayout
-                android:id="@+id/near_places_linear_layout"
+                android:id="@+id/laces_linear_layout"
                 style="@style/text_container"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -145,7 +145,7 @@
         </androidx.cardview.widget.CardView>
 
         <LinearLayout
-            android:id="@+id/near_places_linear_layout"
+            android:id="@+id/aces_linear_layout"
             style="@style/text_container"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -185,7 +185,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/near_places_linear_layout"
+            android:id="@+id/places_linear_layout"
             style="@style/text_container"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

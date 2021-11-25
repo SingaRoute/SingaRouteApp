@@ -1,5 +1,6 @@
 package com.example.pruebamaquetacion.list
 
+import TouristSiteItem
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,10 +8,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pruebamaquetacion.R
-import com.example.pruebamaquetacion.model.TouristSiteItem
 import com.squareup.picasso.Picasso
 
-class TouristSitesAdapter(private val touristSiteList: ArrayList<TouristSiteItem>) :
+class TouristSitesAdapter(
+    private val touristSiteList: ArrayList<TouristSiteItem>,
+    private val onItemClicked: (TouristSiteItem) -> Unit ) :
     RecyclerView.Adapter<TouristSitesAdapter.TouristSiteViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TouristSiteViewHolder {
@@ -21,6 +23,7 @@ class TouristSitesAdapter(private val touristSiteList: ArrayList<TouristSiteItem
 
     override fun onBindViewHolder(holder: TouristSiteViewHolder, position: Int) {
         val touristSite = touristSiteList[position]
+        holder.itemView.setOnClickListener{onItemClicked(touristSiteList[position])}
         holder.bind(touristSite)
     }
 

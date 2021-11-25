@@ -1,12 +1,14 @@
 package com.example.pruebamaquetacion.list
 
+import TouristSite
+import TouristSiteItem
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pruebamaquetacion.R
-import com.example.pruebamaquetacion.model.TouristSite
-import com.example.pruebamaquetacion.model.TouristSiteItem
+import com.example.pruebamaquetacion.detail.SingapourActivity
 import com.google.gson.Gson
 
 class ListaDeActividadesActivity: AppCompatActivity() {
@@ -22,13 +24,19 @@ class ListaDeActividadesActivity: AppCompatActivity() {
         sitesRecyclerView = findViewById(R.id.tourist_sites_recycler_view)
 
         sitesList = loadMockTouristSites()
-        sitesAdapter = TouristSitesAdapter(sitesList)
+        sitesAdapter = TouristSitesAdapter(sitesList, onItemClicked = { onSiteClicked(it) })
 
         sitesRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = sitesAdapter
             setHasFixedSize(false)
         }
+    }
+
+    private fun onSiteClicked(touristsite: TouristSiteItem) {
+        val intent = Intent(this, SingapourActivity::class.java)
+        intent.putExtra("touristsite", touristsite)
+        startActivity(intent)
     }
 
     private fun loadMockTouristSites(): ArrayList<TouristSiteItem> {
