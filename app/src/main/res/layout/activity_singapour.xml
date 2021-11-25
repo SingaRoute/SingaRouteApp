@@ -32,7 +32,8 @@
             android:text="@string/singapur_title"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextContrastCheck" />
 
         <!-- gardens_by_the_bay_0 image  -->
         <androidx.cardview.widget.CardView
