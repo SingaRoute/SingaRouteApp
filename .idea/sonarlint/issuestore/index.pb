@@ -12,3 +12,5 @@ t
 Dapp/src/main/java/com/example/pruebamaquetacion/model/TouristSite.kt,3\1\31cc751b560ddea25751162ae4eb8e06a1c5b181
 …
 Uapp/src/main/java/com/example/pruebamaquetacion/detail/InterfazTemploBudaActivity2.kt,f\6\f67aa375527e0c114fb75052837cf3e0f84317b1
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
