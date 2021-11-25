@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Prueba Maquetacion"
 include ':app'
+include ':singaroute'
