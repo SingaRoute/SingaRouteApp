@@ -1,16 +1,21 @@
 package com.grupoandroid.singaroute.list
 
+import TouristSite
+import TouristSiteItem
+import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.grupoandroid.singaroute.R
+import androidx.fragment.app.Fragment
+import com.google.gson.Gson
 import com.grupoandroid.singaroute.databinding.FragmentPlacesListBinding
 
 class PlacesListFragment : Fragment() {
 
     private lateinit var listBinding: FragmentPlacesListBinding
+    private lateinit var sitesList: ArrayList<TouristSiteItem>
+    private lateinit var sitesAdapter: TouristSitesAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -19,6 +24,23 @@ class PlacesListFragment : Fragment() {
         listBinding = FragmentPlacesListBinding.inflate(inflater, container, false)
 
         return listBinding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        sitesList = loadMockTouristSites()
+        sitesAdapter = TouristSitesAdapter(sitesList, onItemClicked = { onSiteClicked(it) })
+    }
+
+    private fun onSiteClicked(touristsite: TouristSiteItem) {
+        //TODO program detail
+    }
+
+    private fun loadMockTouristSites(): ArrayList<TouristSiteItem> {
+        val touristSiteString: String =
+            context?.assets?.open("TouristSites.json")?.bufferedReader().use { it!!.readText() } //TODO change this code to nullable
+        val gson = Gson()
+        return gson.fromJson(touristSiteString, TouristSite::class.java)
     }
 
 }
