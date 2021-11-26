@@ -9,11 +9,7 @@
         <entry key="..\:/Documents/Bsis/app/src/main/res/drawable/rounded_corner_view.xml" value="0.21041666666666667" />
         <entry key="..\:/Documents/Bsis/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Documents/SingaRoute/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.21041666666666667" />
-        <entry key="..\:/Documents/SingaRoute/app/src/main/res/drawable/ic_baseline_brightness_low_24.xml" value="0.21041666666666667" />
         <entry key="..\:/Documents/SingaRoute/app/src/main/res/drawable/ic_baseline_cloud_24.xml" value="0.21041666666666667" />
-        <entry key="..\:/Documents/SingaRoute/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.21041666666666667" />
-        <entry key="..\:/Documents/SingaRoute/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.21041666666666667" />
-        <entry key="..\:/Documents/SingaRoute/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.21041666666666667" />
         <entry key="..\:/Documents/SingaRoute/app/src/main/res/drawable/rounded_corner_view.xml" value="0.21041666666666667" />
         <entry key="..\:/Documents/SingaRoute/app/src/main/res/layout-v26/activity_tourist_site_card_view.xml" value="0.25" />
         <entry key="..\:/Documents/SingaRoute/app/src/main/res/layout/activity_form.xml" value="0.25" />
@@ -25,20 +21,11 @@
         <entry key="..\:/Documents/SingaRoute/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Documents/SingaRoute/app/src/main/res/layout/activity_singapour.xml" value="0.30548730548730546" />
         <entry key="..\:/Documents/SingaRoute/app/src/main/res/layout/activity_tourist_site_card_view.xml" value="0.5" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.21041666666666667" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.21041666666666667" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.21041666666666667" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/drawable/ic_baseline_share_24.xml" value="0.21041666666666667" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/drawable/rounded_corner_view.xml" value="0.21041666666666667" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/activity_tourist_site_card_view.xml" value="0.33" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/fragment_detail.xml" value="0.25" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/fragment_places_list.xml" value="0.19427083333333334" />
         <entry key="..\:/Users/Lenovo/Desktop/Proyecto_Movil/SingaRouteApp/app/src/main/res/layout/activity_main.xml" value="0.15" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
