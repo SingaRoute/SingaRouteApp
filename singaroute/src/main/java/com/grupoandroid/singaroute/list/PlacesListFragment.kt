@@ -1,13 +1,13 @@
 package com.grupoandroid.singaroute.list
 
-import TouristSite
-import TouristSiteItem
-import android.content.Intent
+import com.grupoandroid.singaroute.model.TouristSite
+import com.grupoandroid.singaroute.model.TouristSiteItem
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.grupoandroid.singaroute.databinding.FragmentPlacesListBinding
 
@@ -30,6 +30,12 @@ class PlacesListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         sitesList = loadMockTouristSites()
         sitesAdapter = TouristSitesAdapter(sitesList, onItemClicked = { onSiteClicked(it) })
+
+        listBinding.touristSitesRecyclerView.apply{
+            layoutManager = LinearLayoutManager(context)
+            adapter = sitesAdapter
+            setHasFixedSize(false)
+        }
     }
 
     private fun onSiteClicked(touristsite: TouristSiteItem) {

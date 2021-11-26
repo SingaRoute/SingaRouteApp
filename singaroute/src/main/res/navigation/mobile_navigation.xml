@@ -17,5 +17,11 @@
     <fragment
         android:id="@+id/detailFragment2"
         android:name="com.grupoandroid.singaroute.detail.DetailFragment"
-        android:label="DetailFragment" />
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="place"
+            app:argType="com.grupoandroid.singaroute.model.TouristSiteItem"
+            app:nullable="true" />
+    </fragment>
 </navigation>

@@ -1,4 +1,3 @@
-
-import com.google.gson.annotations.SerializedName
+package com.grupoandroid.singaroute.model
 
 class TouristSite : ArrayList<TouristSiteItem>()

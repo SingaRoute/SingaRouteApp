@@ -1,6 +1,6 @@
 package com.grupoandroid.singaroute.list
 
-import TouristSiteItem
+import com.grupoandroid.singaroute.model.TouristSiteItem
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
