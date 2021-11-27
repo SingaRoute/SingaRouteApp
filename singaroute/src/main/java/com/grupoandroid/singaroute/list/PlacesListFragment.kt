@@ -44,10 +44,10 @@ class PlacesListFragment : Fragment() {
     }
 
     private fun loadMockTouristSites(): ArrayList<TouristSiteItem> {
-        val touristSiteString: String =
-            context?.assets?.open("TouristSites.json")?.bufferedReader().use { it!!.readText() } //TODO change this code to nullable
+        val touristSiteString: String = context?.assets?.open("TouristSites.json")?.bufferedReader().use { it!!.readText() } //TODO change this code to nullable
         val gson = Gson()
-        return gson.fromJson(touristSiteString, TouristSite::class.java)
+        val data = gson.fromJson(touristSiteString, TouristSite::class.java)
+        return data
     }
 
 }

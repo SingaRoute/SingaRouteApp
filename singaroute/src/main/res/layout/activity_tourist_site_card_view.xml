@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -28,16 +27,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:adjustViewBounds="true"
-                android:contentDescription="TODO"
+                android:contentDescription="@string/card_image_description"
                 android:cropToPadding="false"
                 android:scaleType="centerCrop"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/gardens_by_the_bay_0"
-                tools:ignore="ContentDescription,HardcodedText"
-                tools:visibility="visible" />
+                app:srcCompat="@drawable/gardens_by_the_bay_0" />
 
             <TextView
                 android:id="@+id/tittle_card_text_view"
@@ -47,7 +44,7 @@
                 android:layout_marginBottom="4dp"
                 android:paddingStart="4dp"
                 android:paddingEnd="8dp"
-                android:text="@string/jardines_junto_al_lago"
+                android:text="@string/singapur_title"
                 android:textAlignment="textStart"
                 android:textColor="@color/black"
                 android:textSize="19sp"
@@ -65,8 +62,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/site_card_image_view"
-                app:srcCompat="@drawable/ic_baseline_share_24"
-                tools:ignore="ContentDescription" />
+                app:srcCompat="@drawable/ic_baseline_share_24" />
 
             <ImageView
                 android:id="@+id/imageView6"

@@ -54,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:contentDescription="@string/imagen_de_los_jardines"
+                android:contentDescription="@string/singapur_location"
                 android:cropToPadding="true"
                 android:elevation="@dimen/cardview_default_radius"
                 app:srcCompat="@drawable/singapur_presentacion"
