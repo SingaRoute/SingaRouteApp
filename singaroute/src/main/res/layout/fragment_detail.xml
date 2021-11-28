@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_corner_view"
-            android:backgroundTint="@color/gardens_by_the_bay"
+            android:backgroundTint="@color/primary_light"
             android:elevation="@dimen/cardview_default_radius"
             android:text="@string/singapur_title"
             app:layout_constraintEnd_toEndOf="parent"
