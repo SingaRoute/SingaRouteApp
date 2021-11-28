@@ -6,8 +6,6 @@ Qapp/src/main/java/com/example/pruebamaquetacion/detail/GardensByTheBayActivity.
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 t
 Dapp/src/main/java/com/example/pruebamaquetacion/model/TouristSite.kt,3\1\31cc751b560ddea25751162ae4eb8e06a1c5b181
 …
@@ -24,15 +22,15 @@ y
 Isingaroute/src/main/java/com/grupoandroid/singaroute/main/MainActivity.kt,9\6\96c373d9d5b851dafa9eeaa294b59ee2846f3c24
 {
 Kapp/src/main/java/com/example/pruebamaquetacion/detail/SingapourActivity.kt,3\8\38a6a1f3691420cb3bc4544a73367408a3e03229
-G
-singaroute/build.gradle,4\b\4b03a32c621dfd0738c047cbfe543f9ba044a0fe
 }
 Msingaroute/src/main/java/com/grupoandroid/singaroute/model/TouristSiteItem.kt,9\a\9a77fab654571f090e3a188acae053e089eacd2e
 y
 Isingaroute/src/main/java/com/grupoandroid/singaroute/model/TouristSite.kt,a\6\a6033e40b5dda25e46be7f3cf8a6900d29b25190
-
-Osingaroute/src/main/java/com/grupoandroid/singaroute/list/PlacesListFragment.kt,6\a\6a24e2429dd6745fd567341a9d47c1c6c61b7c36
 €
 Psingaroute/src/main/java/com/grupoandroid/singaroute/list/TouristSitesAdapter.kt,c\b\cba193c4678f188f0831838e90d59215abb100fb
+G
+singaroute/build.gradle,4\b\4b03a32c621dfd0738c047cbfe543f9ba044a0fe
+
+Osingaroute/src/main/java/com/grupoandroid/singaroute/list/PlacesListFragment.kt,6\a\6a24e2429dd6745fd567341a9d47c1c6c61b7c36
 }
 Msingaroute/src/main/java/com/grupoandroid/singaroute/detail/DetailFragment.kt,9\e\9edfb1d6de5014596895c7520de947a2ccda4a84

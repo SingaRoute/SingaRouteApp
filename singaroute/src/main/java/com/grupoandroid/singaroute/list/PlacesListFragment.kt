@@ -15,8 +15,8 @@ import com.grupoandroid.singaroute.databinding.FragmentPlacesListBinding
 class PlacesListFragment : Fragment() {
 
     private lateinit var listBinding: FragmentPlacesListBinding
-    private lateinit var sitesList: ArrayList<TouristSiteItem>
     private lateinit var sitesAdapter: TouristSitesAdapter
+    private lateinit var sitesList: ArrayList<TouristSiteItem>
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

@@ -14,5 +14,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:listitem="@layout/activity_tourist_site_card_view" />
+        tools:listitem="@layout/fragment_tourist_site_card_view" />
 </androidx.constraintlayout.widget.ConstraintLayout>
