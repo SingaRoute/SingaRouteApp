@@ -3,25 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/placesListFragment">
+    app:startDestination="@id/navigation_list">
 
     <fragment
-        android:id="@+id/placesListFragment"
+        android:id="@+id/navigation_list"
         android:name="com.grupoandroid.singaroute.list.PlacesListFragment"
         android:label="fragment_places_list"
         tools:layout="@layout/fragment_places_list" >
         <action
-            android:id="@+id/action_placesListFragment_to_detailFragment2"
-            app:destination="@id/detailFragment2" />
+            android:id="@+id/action_navigation_list_to_navigation_detail"
+            app:destination="@id/navigation_detail" />
+        <action
+            android:id="@+id/action_navigation_list_to_navigation_preference"
+            app:destination="@id/navigation_preference" />
     </fragment>
     <fragment
-        android:id="@+id/detailFragment2"
+        android:id="@+id/navigation_detail"
         android:name="com.grupoandroid.singaroute.detail.DetailFragment"
         android:label="DetailFragment"
         tools:layout="@layout/fragment_detail" >
         <argument
             android:name="place"
-            app:argType="com.grupoandroid.singaroute.model.TouristSiteItem"
-            app:nullable="true" />
+            app:argType="com.grupoandroid.singaroute.model.TouristSiteItem"/>
     </fragment>
+    <fragment
+        android:id="@+id/navigation_preference"
+        android:name="com.grupoandroid.singaroute.preference.SettingsFragment"
+        android:label="SettingsFragment"/>
 </navigation>

@@ -40,7 +40,7 @@ class PlacesListFragment : Fragment() {
     }
 
     private fun onSiteClicked(touristsite: TouristSiteItem) {
-        findNavController().navigate(PlacesListFragmentDirections.actionPlacesListFragmentToDetailFragment2(place = touristsite))
+        findNavController().navigate(PlacesListFragmentDirections.actionNavigationListToNavigationDetail( place = touristsite ))
     }
 
     private fun loadMockTouristSites(): ArrayList<TouristSiteItem> {
