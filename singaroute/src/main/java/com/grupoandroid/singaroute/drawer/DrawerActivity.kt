@@ -11,7 +11,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.grupoandroid.singaroute.drawer.databinding.ActivityDrawerBinding
+import com.grupoandroid.singaroute.R
+import com.grupoandroid.singaroute.databinding.ActivityDrawerBinding
 
 class DrawerActivity : AppCompatActivity() {
 

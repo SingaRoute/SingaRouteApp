@@ -8,8 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.grupoandroid.singaroute.drawer.R
-import com.grupoandroid.singaroute.drawer.databinding.FragmentHomeBinding
+import com.grupoandroid.singaroute.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 
