@@ -5,13 +5,13 @@
 
         <CheckBoxPreference
             android:defaultValue="false"
-            android:key="check_box_preference_1"
+            android:key="notifications"
             android:title="@string/notifications"
             android:icon="@drawable/ic_notifications"/>
         <CheckBoxPreference
-            app:dependency="@string/notifications"
+            app:dependency="notifications"
             android:defaultValue="false"
-            android:key="check_box_preference_1"
+            android:key="sound_notifications"
             android:title="@string/notifications_sound"
             android:icon="@drawable/ic_notifications_active"/>
 

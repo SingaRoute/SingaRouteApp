@@ -29,11 +29,11 @@ class DetailFragment : Fragment() {
         val place = args.place
 
         with(detailBinding){
-            tittleTextView.text = place?.tittle
-            descriptionTextView.text = place?.description
-            scheduleTextView.text = place?.schedule
-            locationTextView.text = place?.location
-            Picasso.get().load(place?.urlPicture).into(locationImageView)
+            tittleTextView.text = place.tittle
+            descriptionTextView.text = place.description
+            scheduleTextView.text = place.schedule
+            locationTextView.text = place.location
+            Picasso.get().load(place.urlPicture).into(locationImageView)
         }
     }
 

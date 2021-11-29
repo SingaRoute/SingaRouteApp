@@ -28,5 +28,3 @@ y
 Isingaroute/src/main/java/com/grupoandroid/singaroute/model/TouristSite.kt,a\6\a6033e40b5dda25e46be7f3cf8a6900d29b25190
 €
 Psingaroute/src/main/java/com/grupoandroid/singaroute/list/TouristSitesAdapter.kt,c\b\cba193c4678f188f0831838e90d59215abb100fb
-}
-Msingaroute/src/main/java/com/grupoandroid/singaroute/detail/DetailFragment.kt,9\e\9edfb1d6de5014596895c7520de947a2ccda4a84

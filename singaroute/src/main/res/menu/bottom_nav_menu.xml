@@ -6,10 +6,6 @@
         android:title="@string/title_list" />
 
     <item
-        android:id="@+id/navigation_detail"
-        android:title="@string/title_detail" />
-
-    <item
         android:id="@+id/navigation_preference"
         android:title="@string/title_preference" />
 
