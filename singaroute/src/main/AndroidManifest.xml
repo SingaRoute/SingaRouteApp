@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebaMaquetacion">
         <activity
+            android:name=".drawer.DrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.PruebaMaquetacion.NoActionBar">
+
+        </activity>
+        <activity
             android:name=".bottom.BottomActivity"
             android:exported="true"
             android:label="@string/title_activity_bottom">
@@ -23,8 +30,7 @@
         </activity>
         <activity
             android:name=".main.MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
