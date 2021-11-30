@@ -18,8 +18,6 @@ X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
-y
-Isingaroute/src/main/java/com/grupoandroid/singaroute/main/MainActivity.kt,9\6\96c373d9d5b851dafa9eeaa294b59ee2846f3c24
 {
 Kapp/src/main/java/com/example/pruebamaquetacion/detail/SingapourActivity.kt,3\8\38a6a1f3691420cb3bc4544a73367408a3e03229
 }
@@ -40,3 +38,15 @@ Osingaroute/src/main/java/com/grupoandroid/singaroute/list/PlacesListFragment.kt
 Msingaroute/src/main/java/com/grupoandroid/singaroute/detail/DetailFragment.kt,9\e\9edfb1d6de5014596895c7520de947a2ccda4a84
 }
 Msingaroute/src/main/java/com/grupoandroid/singaroute/bottom/BottomActivity.kt,1\e\1ece8adef894b43490865c5ad63a057219840bdc
+â
+Ysingaroute/src/main/java/com/grupoandroid/singaroute/drawer/ui/gallery/GalleryFragment.kt,5\1\5129d9a7dd09e973d1075fc5aadc1cce66fb8fb6
+}
+Msingaroute/src/main/java/com/grupoandroid/singaroute/drawer/DrawerActivity.kt,f\c\fcf28fe26043613f68495e6d69cb2479148e4d10
+ä
+Zsingaroute/src/main/java/com/grupoandroid/singaroute/drawer/ui/gallery/GalleryViewModel.kt,e\5\e521365425ae36320845b6c7c22e99bd94be2202
+É
+Ssingaroute/src/main/java/com/grupoandroid/singaroute/drawer/ui/home/HomeFragment.kt,7\0\70d854712a79334b7baaeb273eeeac311ba68902
+ç
+]singaroute/src/main/java/com/grupoandroid/singaroute/drawer/ui/slideshow/SlideshowFragment.kt,d\5\d570822450d7d83ce757ed7b63f693a0bec992b3
+W
+'singaroute/src/main/AndroidManifest.xml,1\3\135804bc0d30632ddfb16b420dee43db85aa5937
