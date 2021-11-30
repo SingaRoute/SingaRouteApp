@@ -30,12 +30,6 @@ P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 G
 singaroute/build.gradle,4\b\4b03a32c621dfd0738c047cbfe543f9ba044a0fe
-ƒ
-Ssingaroute/src/main/java/com/grupoandroid/singaroute/preference/SettingsFragment.kt,4\8\484d89947ba2ee6cf0f4313a0f39eb2a6255a5bb
-
-Osingaroute/src/main/java/com/grupoandroid/singaroute/list/PlacesListFragment.kt,6\a\6a24e2429dd6745fd567341a9d47c1c6c61b7c36
-}
-Msingaroute/src/main/java/com/grupoandroid/singaroute/detail/DetailFragment.kt,9\e\9edfb1d6de5014596895c7520de947a2ccda4a84
 }
 Msingaroute/src/main/java/com/grupoandroid/singaroute/bottom/BottomActivity.kt,1\e\1ece8adef894b43490865c5ad63a057219840bdc
 ‰

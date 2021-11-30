@@ -31,9 +31,24 @@ class MainActivity : AppCompatActivity() {
             R.id.menu_preferences -> {
                 val fragmentSettings = SettingsFragment()
                 ft.replace(R.id.fragmentContainerView, fragmentSettings).commit()
+                ft.addToBackStack(null)
+                true
+            }
+            android.R.id.home -> {
+                onBackPressed()
                 true
             }
             else -> {return true}
         }
+    }
+
+    fun showIcon(){
+        val actionBar: androidx.appcompat.app.ActionBar? = supportActionBar
+        actionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+
+    fun hideIcon(){
+        val actionBar: androidx.appcompat.app.ActionBar? = supportActionBar
+        actionBar?.setDisplayHomeAsUpEnabled(false)
     }
 }

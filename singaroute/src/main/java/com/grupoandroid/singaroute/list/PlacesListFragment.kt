@@ -11,6 +11,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.grupoandroid.singaroute.databinding.FragmentPlacesListBinding
+import com.grupoandroid.singaroute.main.MainActivity
 
 class PlacesListFragment : Fragment() {
 
@@ -29,6 +30,7 @@ class PlacesListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity?)?.hideIcon()
         sitesList = loadMockTouristSites()
         sitesAdapter = TouristSitesAdapter(sitesList, onItemClicked = { onSiteClicked(it) })
 
