@@ -1,6 +1,5 @@
 package com.grupoandroid.singaroute.detail
 
-import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -16,17 +15,13 @@ class DetailFragment : Fragment() {
     private lateinit var detailBinding: FragmentDetailBinding
     private val args: DetailFragmentArgs by navArgs()
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        (activity as MainActivity?)?.showIcon()
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
         detailBinding = FragmentDetailBinding.inflate(inflater, container, false)
+        (activity as MainActivity?)?.showIcon()
 
         return  detailBinding.root
     }
