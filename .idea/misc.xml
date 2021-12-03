@@ -23,16 +23,39 @@
         <entry key="..\:/Documents/SingaRoute/app/src/main/res/layout/activity_tourist_site_card_view.xml" value="0.5" />
         <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/activity_bottom.xml" value="0.33" />
         <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/activity_tourist_site_card_view.xml" value="0.19427083333333334" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/content_drawer.xml" value="0.33" />
         <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/fragment_detail.xml" value="0.19427083333333334" />
         <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/fragment_main.xml" value="0.19427083333333334" />
         <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/fragment_places_list.xml" value="0.33" />
         <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/layout/fragment_tourist_site_card_view.xml" value="0.19427083333333334" />
         <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/menu/menu_overflow.xml" value="0.19427083333333334" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/menu/overflow_menu.xml" value="0.19427083333333334" />
-        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/xml/root_preferences.xml" value="0.22" />
+        <entry key="..\:/Documents/SingaRoute/singaroute/src/main/res/xml/root_preferences.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/Desktop/Proyecto_Movil/SingaRouteApp/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/drawable/ic_menu_gallery.xml" value="0.2203125" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2203125" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/drawable/ic_notifications_active.xml" value="0.2203125" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/drawable/side_nav_bar.xml" value="0.2203125" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/activity_bottom.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/activity_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/activity_tabbed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/app_bar_drawer.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/content_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_detail.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_maps.xml" value="0.18" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_maps2.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_places_list.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_slideshow.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_tab_container.xml" value="0.159375" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_tabbed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/fragment_tourist_site_card_view.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/layout/nav_header_drawer.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/menu/drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/menu/overflow_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Desktop/proyecto_movil/SingaRouteApp/singaroute/src/main/res/xml/root_preferences.xml" value="0.1" />
       </map>
     </option>
   </component>

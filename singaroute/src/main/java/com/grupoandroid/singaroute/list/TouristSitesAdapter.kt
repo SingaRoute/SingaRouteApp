@@ -17,7 +17,6 @@ class TouristSitesAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TouristSiteViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.fragment_tourist_site_card_view, parent, false)
-
         return TouristSiteViewHolder(view)
     }
 
@@ -28,6 +27,12 @@ class TouristSitesAdapter(
     }
 
     override fun getItemCount(): Int = touristSiteList.size
+
+    fun appendItems(newItems: ArrayList<TouristSiteItem>) {
+        touristSiteList.clear()
+        touristSiteList.addAll(newItems)
+        notifyDataSetChanged()
+    }
 
     class TouristSiteViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
@@ -40,7 +45,5 @@ class TouristSitesAdapter(
             likes.text = touristSite.likes
             Picasso.get().load(touristSite.urlPicture).into(siteImage)
         }
-
     }
-
 }
