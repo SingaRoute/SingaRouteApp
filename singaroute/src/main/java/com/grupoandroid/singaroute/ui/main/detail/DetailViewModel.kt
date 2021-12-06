@@ -1,4 +1,4 @@
-package com.grupoandroid.singaroute.detail
+package com.grupoandroid.singaroute.ui.main.detail
 
 import androidx.lifecycle.ViewModel
 

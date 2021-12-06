@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:context = ".detail.DetailFragment"
+        tools:context = ".ui.main.detail.DetailFragment"
         android:paddingBottom="10dp">
 
         <!-- title -->

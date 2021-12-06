@@ -1,4 +1,4 @@
-package com.grupoandroid.singaroute.detail
+package com.grupoandroid.singaroute.ui.main.detail
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,11 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import androidx.navigation.fragment.findNavController
 import com.grupoandroid.singaroute.databinding.FragmentDetailBinding
-import com.grupoandroid.singaroute.main.MainActivity
+import com.grupoandroid.singaroute.ui.main.main.MainActivity
 import com.squareup.picasso.Picasso
 
 class DetailFragment : Fragment() {

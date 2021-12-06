@@ -1,12 +1,10 @@
-package com.grupoandroid.singaroute.preference
+package com.grupoandroid.singaroute.ui.main.preference
 
-import android.app.ActionBar
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.grupoandroid.singaroute.R
-import com.grupoandroid.singaroute.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

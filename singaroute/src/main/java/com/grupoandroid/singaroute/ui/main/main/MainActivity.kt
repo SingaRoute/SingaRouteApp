@@ -1,4 +1,4 @@
-package com.grupoandroid.singaroute.main
+package com.grupoandroid.singaroute.ui.main.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.MenuItem
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.grupoandroid.singaroute.R
-import com.grupoandroid.singaroute.preference.SettingsFragment
+import com.grupoandroid.singaroute.ui.main.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

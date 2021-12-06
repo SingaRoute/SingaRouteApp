@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.grupoandroid.singaroute.databinding.FragmentPlacesListBinding
-import com.grupoandroid.singaroute.main.MainActivity
+import com.grupoandroid.singaroute.ui.main.main.MainActivity
 
 class PlacesListFragment : Fragment() {
 
@@ -31,8 +31,8 @@ class PlacesListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        listViewModel.loadMockTouristSitesFromJson(context?.assets?.open("TouristSites.json"))
-
+       //  listViewModel.loadMockTouristSitesFromJson(context?.assets?.open("TouristSites.json"))
+        listViewModel.getTouristSitesFromServer()
         listViewModel.onTouristsitesLoaded.observe(viewLifecycleOwner, { result ->
             onTouristsitesLoadedSubscribe(result)
         })

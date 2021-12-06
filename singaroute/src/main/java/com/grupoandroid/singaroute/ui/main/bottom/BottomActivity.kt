@@ -1,4 +1,4 @@
-package com.grupoandroid.singaroute.bottom
+package com.grupoandroid.singaroute.ui.main.bottom
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
