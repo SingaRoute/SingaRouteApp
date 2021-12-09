@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name" translatable="false">Singaroute</string>
+
+    <!-- placeholders -->
+    <string name="singapur_title" translatable="false">Singapur</string>
+    <string name="singapur_location">Mariana Gardens Dr, Singapur.</string>
+    <string name="singapur_location_icon">Icono de localizacion</string>
+    <string name="singapur_description" translatable="false">Es un país soberano insular de Asia, formado por sesenta y tres islas, cuya forma de gobierno es la república parlamentaria.Su territorio se divide en cinco consejos de desarrollo comunitario. Singapur es una ciudad-Estado, por lo que su capital se considera la ciudad de Singapur. Está situado al sur del estado de Johor (península de Malasia) y al norte de las islas Riau (Indonesia), separado de estas por el estrecho de Singapur. Con 730 km², es el país más pequeño del Sudeste Asiático. Su territorio ha crecido constantemente con tierras ganadas al mar.</string>
+    <string name="direccion">South Bridge Road.</string>
+    <string name="horario">de 07:00 a 19:00 todos los días</string>
+    <string name="recomendacion">Recomendación:</string>
+    <string name="recomendacion_vestir">Como un buen templo budista toda persona que quiera entrar deberá tener los hombros y rodillas cubiertos.</string>
+    <string name="sitios_cercanos">Sitios Cercanos:</string>
+    <string name="otros_sitios">China Town, Templo Sri Mariamman, Mezquita Jamae.</string>
+
+    <!-- image descriptions -->
+    <string name="cloud_image">cloud image</string>
+    <string name="card_image_description">card view image</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="notifications_sound">Sonido de notificaciones</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_list">Sitios</string>
+    <string name="title_detail">Detalle</string>
+    <string name="title_preference">Preferencias</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Singapur</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="preferences">Preferencias</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_list">
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.grupoandroid.singaroute.list.PlacesListFragment"
+        android:label="@string/title_list"
+        tools:layout="@layout/fragment_places_list" >
+        <action
+            android:id="@+id/action_navigation_list_to_navigation_detail"
+            app:destination="@id/navigation_detail" />
+        <action
+            android:id="@+id/action_navigation_list_to_navigation_preference"
+            app:destination="@id/navigation_preference" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.grupoandroid.singaroute.ui.main.detail.DetailFragment"
+        android:label="@string/title_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="place"
+            app:argType="com.grupoandroid.singaroute.model.TouristSiteItem"/>
+        <action
+            android:id="@+id/action_navigation_detail_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_preference"
+        android:name="com.grupoandroid.singaroute.ui.main.preference.SettingsFragment"
+        android:label="@string/title_preference"/>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.grupoandroid.singaroute.ui.main.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <argument
+            android:name="lat"
+            app:argType="string" />
+        <argument
+            android:name="lon"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.grupoandroid.singaroute.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_navigation_list"
+            app:destination="@id/navigation_list" />
+    </fragment>
+</navigation>
