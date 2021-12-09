@@ -14,5 +14,9 @@ data class TouristSiteItem(
     @SerializedName("tittle")
     val tittle: String,
     @SerializedName("urlPicture")
-    val urlPicture: String
+    val urlPicture: String,
+    @SerializedName("latitud")
+    val latitud: String,
+    @SerializedName("longitud")
+    val longitud: String
 ) : Serializable

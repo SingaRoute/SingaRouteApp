@@ -37,7 +37,14 @@
         android:id="@+id/mapsFragment"
         android:name="com.grupoandroid.singaroute.ui.main.maps.MapsFragment"
         android:label="fragment_maps"
-        tools:layout="@layout/fragment_maps" />
+        tools:layout="@layout/fragment_maps" >
+        <argument
+            android:name="lat"
+            app:argType="string" />
+        <argument
+            android:name="lon"
+            app:argType="string" />
+    </fragment>
     <fragment
         android:id="@+id/splashFragment"
         android:name="com.grupoandroid.singaroute.splash.SplashFragment"

@@ -9,13 +9,13 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
 import androidx.navigation.fragment.findNavController
 import com.grupoandroid.singaroute.databinding.FragmentDetailBinding
+import com.grupoandroid.singaroute.model.TouristSiteItem
 import com.grupoandroid.singaroute.ui.main.main.MainActivity
 import com.squareup.picasso.Picasso
 
 class DetailFragment : Fragment() {
 
     private lateinit var detailBinding: FragmentDetailBinding
-    private val detailViewModel: DetailViewModel by viewModels()
     private val args: DetailFragmentArgs by navArgs()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,7 +44,9 @@ class DetailFragment : Fragment() {
             Picasso.get().load(place.urlPicture).into(locationImageView)
 
             mapButton.setOnClickListener{
-                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment())
+                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment(
+                    lat = place.latitud, lon = place.longitud
+                ))
             }
         }
     }
