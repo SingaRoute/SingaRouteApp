@@ -15,6 +15,8 @@
             "urlPicture": "https://static.eldiario.es/clip/a72f754c-1074-48ab-b216-7509ba53f2cd_16-9-discover-aspect-ratio_default_0.jpg",
             "likes": "66334",
             "schedule": "Abierto todo el día"
+            "latitud" : "1.281507",
+            "longitud" : "103.8636338"
         },
         {
             "tittle": "Templo y Museo de la Reliquia del Diente de Buda",
@@ -31,6 +33,8 @@
             "urlPicture": "https://www.asiatravelgate.com/wp-content/uploads/2017/09/Merlion-Park-Singapore-001.jpg",
             "likes": "789887",
             "schedule": "Abierto todo el día"
+            "latitud" : "1.2867567",
+            "longitud" : "103.8543358"
         }
     ]
 }
