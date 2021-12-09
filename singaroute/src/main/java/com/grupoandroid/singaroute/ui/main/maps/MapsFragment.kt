@@ -28,7 +28,7 @@ class MapsFragment : Fragment() {
 
         val garden = LatLng(lat.toDouble(), lon.toDouble())
         googleMap.addMarker(MarkerOptions().position(garden).title("Aqui esta el jardin").snippet("Singapour"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(garden,18F))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(garden,17F))
     }
 
     override fun onCreateView(
