@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "445750955728",
+    "project_id": "singaroute-308da",
+    "storage_bucket": "singaroute-308da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445750955728:android:f3aaa5ff27e5b5c323d8d5",
+        "android_client_info": {
+          "package_name": "com.grupoandroid.singaroute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445750955728-2l1043901g7td534eskh2pm90b4qkj4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grupoandroid.singaroute",
+            "certificate_hash": "7f46a1ca059b9ea96e2426387c1b241ae44f96ba"
+          }
+        },
+        {
+          "client_id": "445750955728-fbmh8jrup44ubsn9pd9gl0msma5jqle7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBINiEMni7G6d_O8plXcD3Q2GKd1uPh7u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445750955728-fbmh8jrup44ubsn9pd9gl0msma5jqle7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

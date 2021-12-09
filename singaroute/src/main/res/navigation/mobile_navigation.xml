@@ -38,4 +38,13 @@
         android:name="com.grupoandroid.singaroute.ui.main.maps.MapsFragment"
         android:label="fragment_maps"
         tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.grupoandroid.singaroute.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_navigation_list"
+            app:destination="@id/navigation_list" />
+    </fragment>
 </navigation>
