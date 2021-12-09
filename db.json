@@ -6,7 +6,9 @@
             "location": "Mariana Gardens Dr, Singapur.",
             "urlPicture": "https://content.r9cdn.net/rimg/dimg/c6/6b/ef1caf2a-city-20828-16abd1d6fd3.jpg?width=1750&height=1000&xhint=1275&yhint=1460&crop=true",
             "likes": "162031",
-            "schedule": "Abierto todo el día"
+            "schedule": "Abierto todo el día",
+            "latitud" : "1.3535302",
+            "longitud" : "103.8609904"
         },
         {
             "tittle": "Jardínes junto al lago",
@@ -24,7 +26,9 @@
             "location": "South Bridge Road.",
             "urlPicture": "https://p1.pxfuel.com/preview/156/1020/45/buddha-tooth-relic-temple-singapore-chinatown-buddhism.jpg",
             "likes": "69032",
-            "schedule": "de 7:00 a 19:00 todos los días"
+            "schedule": "de 7:00 a 19:00 todos los días",
+            "latitud" : "1.2813213",
+            "longitud" : "103.8444754"
         },
         {
             "tittle": "Merlion Park",
